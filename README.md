@@ -253,5 +253,35 @@ GitHub: (https://github.com/shruti-thorat0715).
 
 ## ScreenShots Of Outputs: 
 
+**1] Homepage :**
+
+<img width="1366" height="768" alt="Screenshot (191)" src="https://github.com/user-attachments/assets/1a7afa96-15d6-4840-81ae-ec6fa7cbbb95" />
+
+**2] Courses page :**
+
+<img width="1366" height="768" alt="Screenshot (192)" src="https://github.com/user-attachments/assets/b09d8d4d-b7ed-4f54-a481-caef2ed61f0d" />
+
+**3] Registration page :**
+
+<img width="1366" height="768" alt="Screenshot (193)" src="https://github.com/user-attachments/assets/b640ba04-e1b4-469b-851e-1ea1663e581f" />
+
+**4] Students List Page :**
+
+<img width="1366" height="768" alt="Screenshot (194)" src="https://github.com/user-attachments/assets/df17fd3f-3e06-4be8-9de6-90841d7e4eab" />
+
+---
+
+## 😊 Thank You
+
+-**Thank you for taking the time to check out this project**  
+-**Your feedback,suggestions and contributions are always welcome💡** 
+
+-**If you found this project helpful, don’t forget to ⭐ star the repository ✨**
+
+-**Happy Coding! 🚀**
+
+
+
+
 
 
