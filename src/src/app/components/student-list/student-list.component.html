@@ -1,0 +1,55 @@
+<div class="search-container">
+  <input 
+    type="text" 
+    [(ngModel)]="searchTerm" 
+    (input)="searchStudents()" 
+    placeholder="Search by name or course"
+  />
+  <!-- Refresh button -->
+  <button class="refresh-btn" (click)="refreshList()">🔄 Refresh</button>
+
+</div>
+         
+
+  
+  <!-- 📋 Student Table -->
+  <table>
+    <thead>
+      <tr>
+        <th>Full Name</th>
+        <th>Email</th>
+        <th>Course</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let student of filteredStudents">
+        <td>{{ student.fullName }}</td>
+        <td>{{ student.email }}</td>
+        <td>{{ student.course }}</td>
+        <td>
+
+          <button class="edit-btn" (click)="editStudent(student)">Edit</button>
+          <button class="delete-btn" (click)="deleteStudent(student.id)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- ✏️ Edit Form -->
+  <div *ngIf="selectedStudent" class="edit-form">
+    <form (ngSubmit)="saveStudent()" #editForm="ngForm">
+      <label>Full Name:</label>
+      <input type="text" [(ngModel)]="selectedStudent.fullName" name="fullName" required />
+
+      <label>Email:</label>
+      <input type="email" [(ngModel)]="selectedStudent.email" name="email" required />
+
+      <label>Course:</label>
+      <input type="text" [(ngModel)]="selectedStudent.course" name="course" required />
+
+      <button class="save-btn" (click)="saveStudent()">Save</button>
+      <button class="cancel-btn" (click)="cancelEdit()">Cancel</button>
+    </form>
+  </div>
+
