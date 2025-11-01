@@ -245,7 +245,9 @@ spring.web.cors.allowed-headers=*
 
 For any questions or feedback, feel free to reach out:
 
-Your Name : shruti thorat
+Your Name : Shruti Thorat
+            Sakshi Shipkule
+            Prajkta More
 
 Email: shrutithorat767@gmail.com
 
